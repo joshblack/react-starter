@@ -1,5 +1,6 @@
 'use strict';
 
+var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
@@ -13,7 +14,7 @@ module.exports = {
 
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/__build__/',
+    path: path.join(__dirname, '/__build__/'),
     publicPath: '/__build__/'
   },
 
@@ -27,4 +28,4 @@ module.exports = {
       { test: /\.js$/, exclude: /node_modules/, loaders: ['react-hot', 'babel'] }
     ]
   }
-}
+};

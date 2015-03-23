@@ -6,5 +6,8 @@ window.React = React;
 window.Router = Router;
 
 Router.run(routes, (Handler) => {
-  React.render(<Handler/>, document.body);
+  React.render(
+    React.createElement(Handler),
+    document.body
+  );
 });
