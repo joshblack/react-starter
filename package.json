@@ -1,12 +1,18 @@
 {
-  "name": "sidehack",
+  "name": "react-starter",
   "version": "0.0.1",
-  "description": "Sidehack",
+  "description": "A react starter template with react router, babel, react-hot-loader, and eslint.",
   "main": "client.js",
   "author": "Josh Black",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshblack/react-starter"
+  },
   "devDependencies": {
     "babel-core": "^4.6.6",
+    "babel-eslint": "^2.0.2",
     "babel-loader": "^4.0.0",
+    "eslint": "^0.17.1",
     "react-hot-loader": "^1.2.3",
     "webpack": "^1.7.2",
     "webpack-dev-server": "^1.7.0"
