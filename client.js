@@ -1,8 +1,9 @@
-'use strict';
-
 import React from 'react';
 import Router from 'react-router';
-import routes from './routes';
+import routes from './src/routes';
+
+window.React = React;
+window.Router = Router;
 
 Router.run(routes, (Handler) => {
   React.render(<Handler/>, document.body);
