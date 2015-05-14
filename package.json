@@ -9,9 +9,10 @@
     "url": "https://github.com/joshblack/react-starter"
   },
   "devDependencies": {
+    "babel": "^5.3.3",
     "babel-core": "^4.6.6",
-    "babel-eslint": "^2.0.2",
-    "babel-loader": "^4.0.0",
+    "babel-eslint": "^3.1.1",
+    "babel-loader": "^5.0.0",
     "eslint": "^0.17.1",
     "react-hot-loader": "^1.2.3",
     "webpack": "^1.7.2",
